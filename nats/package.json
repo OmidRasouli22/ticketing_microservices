@@ -1,0 +1,24 @@
+{
+  "name": "nats",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start:listener": "ts-node-dev --notify false src/listener-test.ts",
+    "start:publisher": "ts-node-dev --notify false src/publisher-test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@omidrasticketsapp/common": "^1.0.21",
+    "amqplib": "^0.10.5",
+    "node-nats-streaming": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.7",
+    "@types/node": "^22.13.10",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  }
+}

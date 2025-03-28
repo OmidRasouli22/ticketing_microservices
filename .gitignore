@@ -1,0 +1,54 @@
+ # 🚀 General Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🔑 Environment Variables (Secrets)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# 📦 Package Manager Files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 🚀 Build Artifacts & Temporary Files
+dist/
+build/
+.cache/
+out/
+.nyc_output/
+coverage/
+*.log
+logs/
+*.tsbuildinfo
+*.d.ts
+
+# 🐳 Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+.dockerignore
+docker-data/
+
+# 🍃 Mongoose & MongoDB
+*.log
+dump/
+data/
+*.lock
+*.pid
+mongod.lock
+
+# 🔥 Redis
+redis-data/
+redis-dump.rdb
