@@ -3,6 +3,7 @@ import app from "./app";
 
 // connect to database
 const startApp = async () => {
+  console.log("Auth Project Starting Up ...");
   if (!process.env.JWT_SECRET_KEY) {
     throw new Error("Jwt secret missed");
   }

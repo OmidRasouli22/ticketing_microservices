@@ -50,6 +50,7 @@ const gracefulShutdown = async (message: string) => {
 // Application start function
 const startApp = async () => {
   try {
+    console.log("Orders app is going to start ...");
     // Validate required env vars
     validateEnv();
 
