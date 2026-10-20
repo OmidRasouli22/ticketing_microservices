@@ -66,7 +66,7 @@ on its own without calling `auth`.
 
 ## Running it
 
-It runs on Kubernetes. Locally I used Docker Desktop's Kubernetes with
+It runs on Kubernetes. You need a local cluster (Docker Desktop works),
 ingress-nginx and Skaffold.
 
 1. Add `127.0.0.1 omidapp.dev` to your hosts file.
